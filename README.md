@@ -64,7 +64,7 @@ Read our **[documentation](docs/Features.md)** to learn more about Cyberbrain's 
 ❗Note on use❗
 - Cyberbrain may conflict with other debuggers. If you set breakpoints and use VSC's debugger, Cyberbrain may not function normally. Generally speaking, **prefer "Run Without Debugging"** (like shown in the gif).
 - If you have multiple VS Code window opened, the trace graph will always be created in the first one. [#72](https://github.com/laike9m/Cyberbrain/discussions/72) is tracking this issue.
-- When having multiple decorators, you should put `@trace` as the innermost one. 
+- When having multiple decorators, you should put `@trace` as the innermost one.
   ```python
   @app.route("/")
   @trace
@@ -172,3 +172,4 @@ Cyberbrain is a huge and complicated project that will last for years, but once 
 <a name="footnote1"><sup>1</sup></a>: The name of this project originates from *[Ghost in the Shell](https://en.wikipedia.org/wiki/Ghost_in_the_Shell)*, [quote](https://ghostintheshell.fandom.com/wiki/Cyberbrain):
 
 > **Cyberization** is the process whereby a normal brain is physically integrated with electronic components to produce an augmented organ referred to as a **cyberbrain**.
+
