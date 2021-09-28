@@ -48,7 +48,9 @@ jobs:
         uses: pdm-project/setup-pdm@main
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install dependencies
+      - name: pip Install dependencies
+        run: pip install ujson
+      - name: pdm Install dependencies
         run: pdm install -v
       - name: Run tests
         run: pdm run tox -v
