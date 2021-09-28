@@ -6,21 +6,7 @@ name: Tests
 # TODO: Investigate whether GitHub Actions support it.
 on:
   pull_request:
-    paths:
-      - "cyberbrain/*"
-      - "cyberbrain-vsc/*"
-      - "test/*"
-      - ".github/workflows/ci.yml"
-      - "pdm.lock"
-      - "tox.ini"
   push:
-    paths:
-      - "cyberbrain/*"
-      - "cyberbrain-vsc/*"
-      - "test/*"
-      - ".github/workflows/ci.yml"
-      - "pdm.lock"
-      - "tox.ini"
   workflow_dispatch:
 
 jobs:
